@@ -6,7 +6,10 @@ namespace Equ
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] testArgs = {"calc", "1+2x^2= -30"};
+
+            Calculator calculator = new Calculator();
+            calculator.Accept(testArgs);
         }
     }
 }
